@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>COVID-19 DataViz: Dashboard</title>
+
+    <!-- amCharts includes -->
+    <script src="js/core.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/maps.js"></script>
+
+    <script src="js/dark.js"></script>
+    <script src="js/animated.js"></script>
+
+    <script src="js/usaLow.js"></script>
+    <script src="js/states_us.js"></script>
+
+    <!-- DataTables includes -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" media="all" href="css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" media="all" href="css/select.dataTables.min.css" />
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.select.min.js"></script>
+
+
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" media="all" href="dark.css" />
+
+    <!-- Main app -->
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div id="chartdiv"></div>
+      <div id="list">
+        <h3>Past 24 Hour</h3>
+        <table id="areas" class="compact hover order-column row-border">
+          <thead>
+            <tr>
+              <th>State</th>
+              <th>Total Vaccinated</th>
+              <th>Fully Vaccinated</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
